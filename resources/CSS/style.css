@@ -142,6 +142,7 @@ nav ul span {
   }
 
 }
+
 /* About Us Hero */
 
 #about-hero-container {
@@ -205,6 +206,88 @@ nav ul span {
 }
 
 @media only screen and (max-width: 480px) {
+
+}
+
+/* Faculity Hero */
+#faculity-hero {
+  background: url('../images/faculty-photo.png') center no-repeat; /* path is relative to CSS file not HTML file */
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#faculity-hero-container {
+  border-bottom: 10px solid #794ae2;
+  margin-top: 50px;
+  height: 30rem;
+}
+
+#faculity-hero-text {
+  text-align: center;
+  padding-top: 5.5rem;
+  padding-right: 5.5rem;
+  float: right;
+}
+
+#faculity-hero-text h1 {
+  font-family: Roboto;
+  font-size: 3.125rem;
+  font-weight: bold;
+  color: #794ae2;
+  line-height: 1;
+  text-transform: uppercase;
+  padding-bottom: 2rem;
+}
+
+#faculity-hero-text p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #999999;
+}
+
+@media only screen and (max-width: 768px) {
+  #faculity-hero-container {
+    height: 70%;
+  }
+  #faculity-hero-text {
+    padding-top: 0rem;
+    float: right;
+  }
+  #faculity-hero-text h1 {
+    font-size: 1.25rem;
+    padding-bottom: 0.5rem;
+  }
+  #faculity-hero-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #faculity-hero-container {
+    height: 12rem;
+  }
+  #faculity-hero-text {
+    float: none;
+    padding-right: 0rem;
+    padding-top: 2rem;
+  }
+  #faculity-hero-text h1 {
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+  }
+  #faculity-hero-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+  }
 
 }
 
@@ -458,6 +541,51 @@ nav ul span {
     padding-left: 4rem;
     padding-right: 2rem;
   }
+}
+
+/* Faculity Content */
+#faculity-body {
+  padding-left: 7.5rem;
+  padding-right: 7.5rem;
+}
+
+#faculity-body-text {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#faculity-body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+
+#faculity-body h2 {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #8a54ff;
+  padding-top: 1.25rem;
+}
+
+#faculity-body p {
+  font-size: 1.125rem;
+  color: #666666;
+}
+
+#faculity-body h5 {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  padding-top: 0.625rem;
+  padding-bottom: 6.75rem;
+  color: #666666;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (max-width: 480px) {
+
 }
 
 /* Footer */
