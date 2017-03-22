@@ -88,6 +88,7 @@ nav ul span {
   max-width: 45rem;
   color: white;
   padding-top: 9.4375rem;
+  padding-bottom: 3rem;
 }
 
 #hero-text h1 {
@@ -102,11 +103,11 @@ nav ul span {
 #hero-text p {
   font-size: 1.5rem;
   line-height: 1.5;
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
 }
 
 #hero-button {
-  padding-bottom: 3.125;
+  padding-bottom: 3.125rem;
 }
 
 .btn-primary {
@@ -205,9 +206,6 @@ nav ul span {
   }
 }
 
-@media only screen and (max-width: 480px) {
-
-}
 
 /* Faculity Hero */
 #faculity-hero {
@@ -491,6 +489,8 @@ nav ul span {
 /* Classes Content */
 #classes-body {
   padding-bottom: 3rem;
+  padding-right: 5rem;
+  padding-left: 5rem;
 }
 
 #classes-body h2 {
@@ -547,32 +547,34 @@ nav ul span {
 #faculity-body {
   padding-left: 7.5rem;
   padding-right: 7.5rem;
+  padding-bottom: 11.25rem;
+  padding-top: 5.625rem;
+  margin: auto;
 }
 
 #faculity-body-text {
+  text-align: center;
   padding-left: 25px;
   padding-right: 25px;
 }
 
-#faculity-body {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  text-align: center;
+#faculity-body-text img {
+  width: 80%;
 }
 
-#faculity-body h2 {
+#faculity-body-text h2 {
   font-size: 1.875rem;
   font-weight: bold;
   color: #8a54ff;
   padding-top: 1.25rem;
 }
 
-#faculity-body p {
+#faculity-body-text p {
   font-size: 1.125rem;
   color: #666666;
-}
+  }
 
-#faculity-body h5 {
+#faculity-body-text h5 {
   font-size: 0.875rem;
   line-height: 1.5;
   padding-top: 0.625rem;
@@ -585,6 +587,30 @@ nav ul span {
 
 }
 @media only screen and (max-width: 480px) {
+  #faculity-body {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-bottom: 3.25rem;
+    padding-top: 5.625rem;
+    margin: auto;
+  }
+  #faculity-body-text {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #faculity-body-text img {
+    width: 70%;
+  }
+  #faculity-body-text h2 {
+    font-size: 1.5rem;
+  }
+  #faculity-body-text p {
+    font-size: 1rem;
+    }
+  #faculity-body-text h5 {
+    font-size: 0.875rem;
+    line-height: 1.7;
+  }
 
 }
 
