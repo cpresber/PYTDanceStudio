@@ -9,12 +9,16 @@ html {
 /* Nav */
 nav {
   height: 3.875rem;
-  padding-left: 3.875rem;
+  padding-left: 3.6875rem;
   padding-right: 3.4375rem;
 }
 
-.navbar-header img {
+#desktop-logo {
   height: 4rem;
+}
+
+#mobile-logo {
+  display: none;
 }
 
 nav ul {
@@ -26,10 +30,6 @@ nav ul {
 
 nav ul span {
   color: #f5a623;
-}
-
-#mobile-logo {
-  display: none;
 }
 
 @media only screen and (max-width: 768px) {
@@ -81,14 +81,14 @@ nav ul span {
   background-position: center;
   text-align: center;
   width: auto;
-  margin-top: 50px;
+  margin-top: 3.875rem;
 }
 
 #hero-text {
   max-width: 45rem;
   color: white;
   padding-top: 9.4375rem;
-  padding-bottom: 3rem;
+  padding-bottom: 3.125rem;
 }
 
 #hero-text h1 {
@@ -103,7 +103,7 @@ nav ul span {
 #hero-text p {
   font-size: 1.5rem;
   line-height: 1.5;
-  padding-bottom: 3rem;
+  padding-bottom: 5rem;
 }
 
 #hero-button {
@@ -126,9 +126,12 @@ nav ul span {
 }
 
 @media only screen and (max-width: 480px) {
+  .jumbotron {
+    margin-top: 2.5rem;
+  }
   #hero-text {
     max-width: 18.5rem;
-    padding-top: 3.125rem;
+    padding-top: 7.125rem;
     padding-bottom: 2rem;
   }
   #hero-text h1 {
@@ -139,152 +142,7 @@ nav ul span {
   #hero-text p {
     font-size: 1rem;
     line-height: 1.6;
-    padding-bottom: 2rem;
-  }
-
-}
-
-/* About Us Hero */
-
-#about-hero-container {
-  border-bottom: 10px solid #794ae2;
-  margin-top: 50px;
-}
-
-#about-hero-image {
-  margin-left: -30px;
-}
-
-#about-hero-image img {
-  width: 100%
-}
-
-#about-hero-text {
-  text-align: center;
-  padding-top: 5.5rem;
-}
-
-#about-hero-text h1 {
-  font-family: Roboto;
-  font-size: 3.125rem;
-  font-weight: bold;
-  color: #794ae2;
-  line-height: 1;
-  text-transform: uppercase;
-  padding-bottom: 2rem;
-}
-
-#about-hero-text p {
-  font-size: 1.5rem;
-  line-height: 1.5;
-  color: #666666;
-}
-
-@media only screen and (max-width: 768px) {
-  #about-hero-container {
-    border-bottom: 0px solid #794ae2;
-    height: 5rem;
-  }
-  #about-hero-image {
-    height: 20rem;
-    overflow: hidden;
-  }
-  #about-hero-text {
-    padding-top: 1rem;
-    border-bottom: 10px solid #794ae2;
-  }
-  #about-hero-text h1 {
-    font-size: 1.25rem;
-    padding-bottom: 0.5rem;
-  }
-  #about-hero-text p {
-    font-size: 1rem;
-    line-height: 1.6;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 20px;
-  }
-}
-
-
-/* Faculity Hero */
-#faculity-hero {
-  background: url('../images/faculty-photo.png') center no-repeat; /* path is relative to CSS file not HTML file */
-  background-size: cover;
-  background-position: center;
-  text-align: center;
-  margin-top: 50px;
-}
-
-#faculity-hero-container {
-  border-bottom: 10px solid #794ae2;
-  margin-top: 50px;
-  height: 30rem;
-}
-
-#faculity-hero-text {
-  text-align: center;
-  padding-top: 5.5rem;
-  padding-right: 5.5rem;
-  float: right;
-}
-
-#faculity-hero-text h1 {
-  font-family: Roboto;
-  font-size: 3.125rem;
-  font-weight: bold;
-  color: #794ae2;
-  line-height: 1;
-  text-transform: uppercase;
-  padding-bottom: 2rem;
-}
-
-#faculity-hero-text p {
-  font-size: 1.5rem;
-  line-height: 1.5;
-  color: #999999;
-}
-
-@media only screen and (max-width: 768px) {
-  #faculity-hero-container {
-    height: 70%;
-  }
-  #faculity-hero-text {
-    padding-top: 0rem;
-    float: right;
-  }
-  #faculity-hero-text h1 {
-    font-size: 1.25rem;
-    padding-bottom: 0.5rem;
-  }
-  #faculity-hero-text p {
-    font-size: 1rem;
-    line-height: 1.6;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 20px;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  #faculity-hero-container {
-    height: 12rem;
-  }
-  #faculity-hero-text {
-    float: none;
-    padding-right: 0rem;
-    padding-top: 2rem;
-  }
-  #faculity-hero-text h1 {
-    font-size: 1rem;
-    padding-bottom: 0.5rem;
-  }
-  #faculity-hero-text p {
-    font-size: 1rem;
-    line-height: 1.6;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 0px;
+    padding-bottom: 3.875rem;
   }
 
 }
@@ -377,8 +235,8 @@ nav ul span {
 @media only screen and (max-width: 480px) {
   #content-box {
     min-width: 25rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
     padding-bottom: 0.5rem;
   }
   #content-box h2 {
@@ -391,6 +249,78 @@ nav ul span {
     font-size: 0.75rem;
     line-height: 1.5;
     padding-bottom: 0.2rem;
+  }
+}
+
+
+/* About Us and Classes Hero */
+
+#about-hero-container {
+  border-bottom: 10px solid #794ae2;
+  margin-top: 3.875rem;
+}
+
+#about-hero-image {
+  margin-left: -30px;
+}
+
+#about-hero-image img {
+  width: 130%;
+}
+
+#about-hero-text {
+  text-align: center;
+  padding-top: 10rem;
+}
+
+#about-hero-text h1 {
+  font-size: 3.125rem;
+  font-weight: bold;
+  color: #794ae2;
+  text-transform: uppercase;
+  padding-bottom: 4rem;
+}
+
+#about-hero-text p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #666666;
+}
+
+@media only screen and (max-width: 768px) {
+  #about-hero-image img {
+    width: 100%;
+  }
+  #about-hero-container {
+    border-bottom: 0px solid #794ae2;
+    height: 5rem;
+  }
+  #about-hero-image {
+    height: 20rem;
+    overflow: hidden;
+  }
+  #about-hero-text {
+    padding-top: 1rem;
+    border-bottom: 10px solid #794ae2;
+  }
+  #about-hero-text h1 {
+    font-size: 1.25rem;
+    padding-bottom: 0.5rem;
+  }
+  #about-hero-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  #about-hero-container {
+    margin-top: 2.5rem;
+  }
+  #about-hero-image img {
+    width: 100%;
   }
 }
 
@@ -408,17 +338,18 @@ nav ul span {
   font-weight: bold;
   color: #794ae2;
   padding-top: 4rem;
+  padding-bottom: 2rem;
 }
 
 #about-body-text p {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   color: #666666;
   padding-bottom: 4rem;
 }
 
 #about-body-image {
-  padding-top: 6rem;
+  padding-top: 8rem;
 }
 
 #about-body1 #about-body-image img {
@@ -444,6 +375,14 @@ nav ul span {
   background-position: center;
   min-height: 31.25rem;
   position: relative;
+}
+
+#map address {
+  line-height: 1.7rem;
+}
+
+#map address span {
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 768px){
@@ -484,24 +423,30 @@ nav ul span {
   }
 }
 
-
-
 /* Classes Content */
 #classes-body {
-  padding-bottom: 3rem;
-  padding-right: 5rem;
-  padding-left: 5rem;
+  padding-bottom: 2.4rem;
+  padding-right: 1.125rem;
+  padding-left: 1.125rem;
+  padding-top: 5.3125rem;
+}
+
+#classes-body span {
+  font-weight: bold;
+  font-size: 1.125rem;
+  padding-bottom: 1.125rem;
 }
 
 #classes-body h2 {
   font-size: 1.875rem;
   font-weight: bold;
   color: rgba(174,75,227,0.9);
-  padding-top: 3rem;
+  padding-bottom: 1.125rem;
 }
 
 #classes-body p {
   font-size: 1rem;
+  line-height: 1.5;
   color: #666666;
 }
 
@@ -509,7 +454,7 @@ nav ul span {
   font-size: 0.875rem;
   line-height: 1.7;
   padding-top: 1rem;
-  padding-bottom: 0rem;
+  padding-bottom: 3.75rem;
   color: #666666;
 }
 
@@ -530,8 +475,12 @@ nav ul span {
   }
 }
 @media only screen and (max-width: 480px) {
-  #classes-body p {
+  #classes-body span {
     font-size: 1rem;
+  }
+  #classes-body p {
+    font-size: 0.875rem;
+    line-height: 1.7;
   }
   #classes-body h5 {
     font-size: 0.875rem;
@@ -542,6 +491,90 @@ nav ul span {
     padding-right: 2rem;
   }
 }
+
+/* Faculity Hero */
+#faculity-hero {
+  background: url('../images/faculty-photo.png') center no-repeat; /* path is relative to CSS file not HTML file */
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  margin-top: 3.875rem;
+}
+
+#faculity-hero-container {
+  border-bottom: 10px solid #794ae2;
+  margin-top: 50px;
+  height: 37rem;
+}
+
+#faculity-hero-text {
+  text-align: center;
+  padding-top: 9rem;
+  padding-right: 5.5rem;
+  float: right;
+}
+
+#faculity-hero-text h1 {
+  font-size: 3.125rem;
+  font-weight: bold;
+  color: #794ae2;
+  line-height: 1;
+  text-transform: uppercase;
+  padding-bottom: 2rem;
+}
+
+#faculity-hero-text p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #999999;
+}
+
+@media only screen and (max-width: 768px) {
+  #faculity-hero-container {
+    height: 70%;
+  }
+  #faculity-hero-text {
+    padding-top: 0rem;
+    float: right;
+  }
+  #faculity-hero-text h1 {
+    font-size: 1.25rem;
+    padding-bottom: 0.5rem;
+  }
+  #faculity-hero-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #faculity-hero {
+    margin-top: 50px;
+  }
+  #faculity-hero-container {
+    height: 12rem;
+  }
+  #faculity-hero-text {
+    float: none;
+    padding-right: 0rem;
+    padding-top: 2rem;
+  }
+  #faculity-hero-text h1 {
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+  }
+  #faculity-hero-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+  }
+}
+
 
 /* Faculity Content */
 #faculity-body {
@@ -567,6 +600,12 @@ nav ul span {
   font-weight: bold;
   color: #8a54ff;
   padding-top: 1.25rem;
+  padding-bottom: 0.625rem;
+}
+
+#faculity-body-text span {
+  font-weight: bold;
+  padding-bottom: 0.625rem;
 }
 
 #faculity-body-text p {
@@ -578,7 +617,7 @@ nav ul span {
   font-size: 0.875rem;
   line-height: 1.5;
   padding-top: 0.625rem;
-  padding-bottom: 6.75rem;
+  padding-bottom: 6.25rem;
   color: #666666;
 }
 
